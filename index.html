@@ -1,11 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vgb5bht6</title>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0 30px;
+            box-sizing: border-box;
+        }
+
+        nav {
+            height: 60px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .image {
+            height: 30px;
+            width: auto;
+            margin: 15px;
+        }
+
+        ul {
+            display: flex;
+            margin: 15px;
+         
+        }
+
+        ul li {
+font-size: 20px;
+list-style: none;
+        }
+        .login{
+      height: 60px;
+      width: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5%;
+        }
+        .username{
+           height: 40px;
+           width: 200px;
+           color: #4CAF4F;
+           border-radius: 10px;
+        }
+        .signup{
+            height: 40px;
+           width: 200px;
+           color: white;
+           background-color: #4CAF4F;
+           border-radius: 10px;
+        }
+        .maindiv{
+            height: 50%;
+            width: 100%;
+            display: flex;
+            background-color: red;
+
+        }
+        .text{
+            /* background-color: blue; */
+            margin: 50px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <nav>
+        <img src="./Logo.svg" class="image">
+        <ul>
+            <li>Home</li>
+            <li>features</li>
+            <li>community</li>
+            <li>blog</li>
+            <li>pricing</li>
+            <li>FAQ</li>
+        </ul>
+        <div class="login">
+        <button class="username">
+            Login
+        </button>
+        <button class="signup">
+            Sign up
+        </button>
+    </div>
+    </nav>
+    <div class="maindiv">
+    <div class="text">
+        Lessons and insights 
+        from 8 years
+    </div>
+    <div class="img">
+        <img src="./Illustration.svg" alt="image">
+    </div>
+</div>
 </body>
+
 </html>
